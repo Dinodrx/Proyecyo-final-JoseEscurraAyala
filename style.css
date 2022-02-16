@@ -127,7 +127,7 @@ footer{
 }
 .parrafo-nosotros:hover {
     transform: scale(1.5);
-    transition: 2s;
+    transition: 1.5s;
     color: gold;
 
 }
