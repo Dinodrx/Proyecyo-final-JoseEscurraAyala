@@ -77,38 +77,32 @@ footer{
     justify-content: center;
 }
 /* fin footer */
-/* inicio pagina hombre */
-.images-hombre {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-gap: 1rem;
-}
-.fotos-hombre {
-    width: 100%;
-    height: 100%; 
-    border-radius: 0.5rem;
-    
-}
-.fotos-hombre:hover {
-    border:solid 5px gold;
-    transition: all 0.5s;
-}
-/* fin pagina hombre */
+
 /* inicio pagina mujer */
 
-.images-mujer {
-    display: grid;
-    grid-template-columns: 25%;
+.imagenes-mujer {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.fotos-mujer{
-    margin: 10% 0;
+@media screen and (min-width:1024px) {
+    .card-img-top:hover {
+        transform: scale(1.5);
+        border: 2px solid gold; 
+        transition: 1s;
+        
+    }
 }
-.fotos-mujer:hover{
-    transform:translateX(300px) rotate(360deg) scale(1.25);
-    transition: all 2s;
-    
+
+@media screen and (max-width:768px) {
+    .card {
+       margin-top: 10%;
+       margin-bottom: 10%; 
+        
+    }
 }
+
+
 /* fin pagina mujer */
 
 /* inicio pagina nosotros */
