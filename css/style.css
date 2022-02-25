@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+ul {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 10% repeat(3, 30%);
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 125%;
+}
+
+/* inicio index */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 200%;
+  margin: 3%;
+  color: silver;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.coleccion {
+  width: 85%;
+  height: 60%;
+}
+
+.parrafo-section {
+  color: white;
+  border: solid 3px silver;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* fin index */
+/* inicio footer */
+footer {
+  display: grid;
+  grid-template-columns: 5% 5% 5% 85%;
+  grid-column-gap: 10px;
+}
+
+.link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos-redes {
+  width: 50%;
+}
+
+.parrafo-footer {
+  color: silver;
+  display: flex;
+  justify-content: center;
+}
+
+/* fin footer */
+/* inicio pagina mujer */
+.imagenes-mujer {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+  .card-img-top:hover {
+    transform: scale(1.5);
+    border: 2px solid gold;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+/* fin pagina mujer */
+/* inicio pagina nosotros */
+.pregunta {
+  color: white;
+  font-size: 150%;
+  margin: 10% 0;
+}
+
+.seccion-nosotros {
+  display: grid;
+  grid-template-columns: 50%;
+}
+
+.parrafo-nosotros {
+  color: grey;
+  display: flex;
+}
+
+.parrafo-nosotros:hover {
+  transform: scale(1.5);
+  transition: 1.5s;
+  color: gold;
+}
+
+/*# sourceMappingURL=style.css.map */

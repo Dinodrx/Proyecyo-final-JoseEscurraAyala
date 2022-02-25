@@ -1,0 +1,21 @@
+/* inicio footer */
+footer{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 85%;
+    grid-column-gap: 10px;
+}
+.link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos-redes {
+    width: 50%;
+}
+
+.parrafo-footer {
+    color: silver;
+    display: flex;
+    justify-content: center;
+}
+/* fin footer */
