@@ -1,6 +1,8 @@
 /* inicio pagina nosotros */
+@import "../base/listas" ;
+
 .pregunta {
-    color: white;
+    color: nth($colores,2);
     font-size: 150%;
     margin: 10% 0;
 }
@@ -9,12 +11,12 @@
     grid-template-columns: 50%;
 }
 .parrafo-nosotros {
-    color: grey;
+    color: nth($colores,6);
     display: flex;
 }
 .parrafo-nosotros:hover {
     transform: scale(1.5);
     transition: 1.5s;
-    color: gold;
+    color: nth($colores,4);
 
 }

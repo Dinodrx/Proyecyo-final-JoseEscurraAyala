@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
 }
 
+/*Listas*/
 .logo {
   width: 100%;
 }
@@ -35,12 +36,13 @@ ul {
 }
 
 /* inicio index */
+/*Listas*/
 h1 {
   display: flex;
   justify-content: center;
   font-size: 200%;
   margin: 3%;
-  color: silver;
+  color: gray;
 }
 
 div {
@@ -67,18 +69,15 @@ footer {
   grid-template-columns: 5% 5% 5% 85%;
   grid-column-gap: 10px;
 }
-
-.link-footer {
+footer .link-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.logos-redes {
+footer .link-footer .logos-redes {
   width: 50%;
 }
-
-.parrafo-footer {
+footer .parrafo-footer {
   color: silver;
   display: flex;
   justify-content: center;
@@ -106,6 +105,7 @@ footer {
 }
 /* fin pagina mujer */
 /* inicio pagina nosotros */
+/*Listas*/
 .pregunta {
   color: white;
   font-size: 150%;
@@ -118,14 +118,14 @@ footer {
 }
 
 .parrafo-nosotros {
-  color: grey;
+  color: gray;
   display: flex;
 }
 
 .parrafo-nosotros:hover {
   transform: scale(1.5);
   transition: 1.5s;
-  color: gold;
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
