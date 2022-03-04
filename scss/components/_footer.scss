@@ -1,13 +1,13 @@
 /* inicio footer */
+@import "../base/extends";
+
 footer{
     display: grid;
     grid-template-columns: 5% 5% 5% 85%;
     grid-column-gap: 10px;
 
     .link-footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %justificar;
 
         .logos-redes {
             width: 50%;
@@ -16,8 +16,7 @@ footer{
     }
     .parrafo-footer {
         color: silver;
-        display: flex;
-        justify-content: center;
+        @extend %justificar;
     }
 }
 

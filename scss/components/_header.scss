@@ -1,4 +1,5 @@
 @import "../base/listas";
+@import"../base/extends";
 .logo {
     width: 100% 
 }
@@ -12,9 +13,7 @@ ul{
     grid-template-columns: 10% repeat(3,30%);
 }
 .barra{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
+    @extend %justificar;
     text-decoration: none;
     color: nth($colores,2);   
     font-size: 125%;

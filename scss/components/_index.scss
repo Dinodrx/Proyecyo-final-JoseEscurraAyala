@@ -1,16 +1,15 @@
 /* inicio index */
 @import "../base/listas";
+@import "../base/extends";
 h1 {
-    display: flex;
-    justify-content: center;
+    @extend %justificar;
     font-size: 200%;
     margin: 3%;
     color:nth($colores,6);
 }
 
 div {
-    display: flex;
-    justify-content: center;
+    @extend %justificar;
 }
 .coleccion {
     width: 85%;

@@ -11,6 +11,12 @@ body {
 }
 
 /*Listas*/
+footer .parrafo-footer, footer .link-footer, div, h1, .barra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   width: 100%;
 }
@@ -27,9 +33,6 @@ ul {
 }
 
 .barra {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: white;
   font-size: 125%;
@@ -37,17 +40,16 @@ ul {
 
 /* inicio index */
 /*Listas*/
-h1 {
+footer .parrafo-footer, footer .link-footer, div, h1, .barra {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+h1 {
   font-size: 200%;
   margin: 3%;
   color: gray;
-}
-
-div {
-  display: flex;
-  justify-content: center;
 }
 
 .coleccion {
@@ -64,23 +66,22 @@ div {
 
 /* fin index */
 /* inicio footer */
+footer .parrafo-footer, footer .link-footer, .barra, h1, div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   display: grid;
   grid-template-columns: 5% 5% 5% 85%;
   grid-column-gap: 10px;
-}
-footer .link-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 footer .link-footer .logos-redes {
   width: 50%;
 }
 footer .parrafo-footer {
   color: silver;
-  display: flex;
-  justify-content: center;
 }
 
 /* fin footer */
@@ -125,7 +126,7 @@ footer .parrafo-footer {
 .parrafo-nosotros:hover {
   transform: scale(1.5);
   transition: 1.5s;
-  color: blue;
+  color: gold;
 }
 
 /*# sourceMappingURL=style.css.map */
