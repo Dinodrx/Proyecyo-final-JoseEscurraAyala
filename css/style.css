@@ -92,7 +92,7 @@ footer .parrafo-footer {
 }
 
 @media screen and (min-width: 1024px) {
-  .card-img-top:hover {
+  .card-img-top-mujer:hover {
     transform: scale(1.5);
     border: 2px solid gold;
     transition: 1s;
