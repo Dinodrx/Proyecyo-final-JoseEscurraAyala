@@ -1,6 +1,7 @@
 /* inicio index */
 @import "../base/listas";
 @import "../base/extends";
+@import"../base/maps";
 h1 {
     @extend %justificar;
     font-size: 200%;
@@ -18,7 +19,7 @@ div {
 
 .parrafo-section {
     color: nth($colores,2);
-    border: solid 3px silver  ;
+    border: 3px solid gray;
     margin-top: 5%;
     margin-bottom: 5%;
 }

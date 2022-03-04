@@ -1,8 +1,7 @@
-/* inicio pagina mujer */
+@import"../base/mixins";
 
 .imagenes-mujer {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    @include espacios(10%,10%)
 }
 
 @media screen and (min-width:1024px) {
@@ -16,9 +15,7 @@
 
 @media screen and (max-width:768px) {
     .card {
-       margin-top: 10%;
-       margin-bottom: 10%; 
-        
+        @include espacios(10%,10%)
     }
 }
 

@@ -1,0 +1,19 @@
+/*Me permite agregar un parametro vacio al cuel voy a darle un valor en elfuturo*/
+
+@mixin espacios($top,$bot) {
+    margin-top: $top;
+    margin-bottom: $bot;
+}
+// .animaciones {
+//     @include colores(green, 100%, 22px, 1px solid black );
+// }
+
+// .animaciones-dos {
+//     @include colores(blue,50%, 18px, 6px dotted gray);
+// }
+
+
+
+
+
+

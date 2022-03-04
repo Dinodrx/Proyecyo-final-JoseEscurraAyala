@@ -17,6 +17,7 @@ footer .parrafo-footer, footer .link-footer, div, h1, .barra {
   align-items: center;
 }
 
+/*Mapas*/
 .logo {
   width: 100%;
 }
@@ -46,6 +47,7 @@ footer .parrafo-footer, footer .link-footer, div, h1, .barra {
   align-items: center;
 }
 
+/*Mapas*/
 h1 {
   font-size: 200%;
   margin: 3%;
@@ -59,7 +61,7 @@ h1 {
 
 .parrafo-section {
   color: white;
-  border: solid 3px silver;
+  border: 3px solid gray;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -72,6 +74,7 @@ footer .parrafo-footer, footer .link-footer, .barra, h1, div {
   align-items: center;
 }
 
+/*Mapas*/
 footer {
   display: grid;
   grid-template-columns: 5% 5% 5% 85%;
@@ -85,7 +88,7 @@ footer .parrafo-footer {
 }
 
 /* fin footer */
-/* inicio pagina mujer */
+/*Me permite agregar un parametro vacio al cuel voy a darle un valor en elfuturo*/
 .imagenes-mujer {
   margin-top: 10%;
   margin-bottom: 10%;
