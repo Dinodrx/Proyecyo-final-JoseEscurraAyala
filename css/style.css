@@ -11,7 +11,7 @@ body {
 }
 
 /*Listas*/
-footer .parrafo-footer, footer .link-footer, div, h1, .barra {
+h2, .pregunta, footer .parrafo-footer, footer .link-footer, div, h1, .barra {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +28,10 @@ footer .parrafo-footer, footer .link-footer, div, h1, .barra {
 }
 
 ul {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.89);
   display: grid;
   grid-template-columns: 10% repeat(3, 30%);
+  padding-left: 0rem;
 }
 
 .barra {
@@ -41,7 +42,7 @@ ul {
 
 /* inicio index */
 /*Listas*/
-footer .parrafo-footer, footer .link-footer, div, h1, .barra {
+h2, .pregunta, footer .parrafo-footer, footer .link-footer, div, h1, .barra {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +69,7 @@ h1 {
 
 /* fin index */
 /* inicio footer */
-footer .parrafo-footer, footer .link-footer, .barra, h1, div {
+h2, .pregunta, footer .parrafo-footer, footer .link-footer, .barra, h1, div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,6 +90,7 @@ footer .parrafo-footer {
 
 /* fin footer */
 /*Me permite agregar un parametro vacio al cuel voy a darle un valor en elfuturo*/
+/*Mapas*/
 .imagenes-mujer {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -118,18 +120,101 @@ footer .parrafo-footer {
 
 .seccion-nosotros {
   display: grid;
-  grid-template-columns: 50%;
 }
 
 .parrafo-nosotros {
   color: gray;
-  display: flex;
 }
 
 .parrafo-nosotros:hover {
-  transform: scale(1.5);
-  transition: 1.5s;
   color: gold;
+}
+
+h2, .barra, h1, div, footer .link-footer, footer .parrafo-footer, .pregunta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+}
+.container .logo-producto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5%;
+}
+.container .logo-producto a {
+  display: flex;
+  justify-content: space-around;
+}
+.container .logo-producto a img {
+  width: 50%;
+}
+
+h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+#polos-hombre {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  #polos-hombre img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #polos-hombre img {
+    width: 100%;
+  }
+}
+#polos-hombre p {
+  color: white;
+}
+
+#sudadera-hombre {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  #sudadera-hombre img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #sudadera-hombre img {
+    width: 100%;
+  }
+}
+#sudadera-hombre p {
+  color: white;
+}
+
+#pantalon-hombre {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+@media screen and (min-width: 1024px) {
+  #pantalon-hombre img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #pantalon-hombre img {
+    width: 100%;
+  }
+}
+#pantalon-hombre p {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,16 +3,17 @@
 @import"../base/maps";
 
 .logo {
-    width: 100% 
+    width: 100%;
 }
 .logo:hover {
     transform: rotate(360deg);
     transition: 1s;
 }
 ul{
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.89);
     display: grid;
     grid-template-columns: map-get($header-col,columnas);
+    padding-left: 0rem;
 }
 .barra{
     @extend %justificar;
