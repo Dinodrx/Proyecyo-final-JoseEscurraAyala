@@ -68,6 +68,10 @@ h1 {
 }
 
 /* fin index */
+.disclaimer {
+  display: none;
+}
+
 /* inicio footer */
 h2, .pregunta, footer .parrafo-footer, footer .link-footer, .barra, h1, div {
   display: flex;
